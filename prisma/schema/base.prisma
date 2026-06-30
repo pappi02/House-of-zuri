@@ -1,0 +1,9 @@
+// Base schema containing shared timestamp and ID patterns
+// This file defines base models and common fields used across the system
+
+model BaseEntity {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  deletedAt DateTime?
+}

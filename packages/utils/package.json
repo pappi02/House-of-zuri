@@ -1,0 +1,13 @@
+{
+  "name": "@house-of-zuri/utils",
+  "version": "0.0.1",
+  "private": true,
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,1 @@
+﻿-- Seed starter data for customer schema

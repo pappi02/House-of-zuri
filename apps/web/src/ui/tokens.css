@@ -1,0 +1,24 @@
+:root {
+  --zuri-primary: #000000; /* Black */
+  --zuri-secondary: #D4AF37; /* Gold */
+  --zuri-accent: #FFFFFF; /* White */
+
+  --background: #0b0b0b;
+  --foreground: #f5f5f5;
+}
+
+html.light {
+  --background: #ffffff;
+  --foreground: #0b0b0b;
+}
+
+html.dark {
+  --background: #0b0b0b;
+  --foreground: #f5f5f5;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+

@@ -11,3 +11,5 @@ export interface HealthStatus {
   timestamp: string;
   version: string;
 }
+
+export * from './src/customer';

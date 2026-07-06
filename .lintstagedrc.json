@@ -1,5 +1,4 @@
 {
-  "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"],
-  "*.{json,md,yml,yaml}": ["prettier --write"],
-  "*.prisma": ["prisma format"]
+  "*.{js,jsx,ts,tsx}": ["pnpm exec eslint --fix", "pnpm exec prettier --write"],
+  "*.{json,md,yml,yaml}": ["pnpm exec prettier --write"]
 }

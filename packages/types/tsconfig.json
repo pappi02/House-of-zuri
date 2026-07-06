@@ -3,7 +3,8 @@
   "compilerOptions": {
     "rootDir": "./",
     "outDir": "./dist",
-    "declaration": true
+    "declaration": true,
+    "ignoreDeprecations": "5.0"
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "dist"]

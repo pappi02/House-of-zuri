@@ -1,0 +1,6 @@
+export class DuplicateCustomerException extends Error {
+  constructor(email: string) {
+    super(`Customer with email ${email} already exists.`);
+    this.name = 'DuplicateCustomerException';
+  }
+}

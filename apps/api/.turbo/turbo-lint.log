@@ -1,0 +1,68 @@
+
+> @house-of-zuri/api@0.0.1 lint C:\Users\gh\house-of-zuri\apps\api
+> eslint src
+
+
+C:\Users\gh\house-of-zuri\apps\api\src\app.module.ts
+  1:1   error  Definition for rule '@typescript-eslint/explicit-function-return-types' was not found  @typescript-eslint/explicit-function-return-types
+  1:24  error  Replace `'@nestjs/common';␍` with `"@nestjs/common";`                                  prettier/prettier
+  2:30  error  Replace `'@nestjs/config';␍` with `"@nestjs/config";`                                  prettier/prettier
+  3:34  error  Replace `'./health/health.controller';␍` with `"./health/health.controller";`          prettier/prettier
+  4:1   error  Delete `␍`                                                                             prettier/prettier
+  5:10  error  Delete `␍`                                                                             prettier/prettier
+  6:37  error  Delete `␍`                                                                             prettier/prettier
+  7:35  error  Delete `␍`                                                                             prettier/prettier
+  8:3   error  Delete `␍`                                                                             prettier/prettier
+  9:26  error  Delete `␍`                                                                             prettier/prettier
+
+C:\Users\gh\house-of-zuri\apps\api\src\app.service.ts
+  1:1   error  Definition for rule '@typescript-eslint/explicit-function-return-types' was not found            @typescript-eslint/explicit-function-return-types
+  1:28  error  Replace `'@nestjs/common';␍` with `"@nestjs/common";`                                            prettier/prettier
+  2:1   error  Delete `␍`                                                                                       prettier/prettier
+  3:14  error  Delete `␍`                                                                                       prettier/prettier
+  4:26  error  Delete `␍`                                                                                       prettier/prettier
+  5:23  error  Delete `␍`                                                                                       prettier/prettier
+  6:12  error  Replace `'Hello·World·from·House·of·Zuri·API!';␍` with `"Hello·World·from·House·of·Zuri·API!";`  prettier/prettier
+  7:4   error  Delete `␍`                                                                                       prettier/prettier
+  8:2   error  Delete `␍`                                                                                       prettier/prettier
+
+C:\Users\gh\house-of-zuri\apps\api\src\health\health.controller.ts
+   1:1   error  Definition for rule '@typescript-eslint/explicit-function-return-types' was not found  @typescript-eslint/explicit-function-return-types
+   1:33  error  Replace `'@nestjs/common';␍` with `"@nestjs/common";`                                  prettier/prettier
+   2:1   error  Delete `␍`                                                                             prettier/prettier
+   3:13  error  Replace `'health')␍` with `"health")`                                                  prettier/prettier
+   4:32  error  Delete `␍`                                                                             prettier/prettier
+   5:9   error  Delete `␍`                                                                             prettier/prettier
+   6:16  error  Delete `␍`                                                                             prettier/prettier
+   7:13  error  Delete `␍`                                                                             prettier/prettier
+   8:15  error  Replace `'OK',␍` with `"OK",`                                                          prettier/prettier
+   9:43  error  Delete `␍`                                                                             prettier/prettier
+  10:16  error  Replace `'0.0.1',␍` with `"0.0.1",`                                                    prettier/prettier
+  11:7   error  Delete `␍`                                                                             prettier/prettier
+  12:4   error  Delete `␍`                                                                             prettier/prettier
+  13:2   error  Delete `␍`                                                                             prettier/prettier
+
+C:\Users\gh\house-of-zuri\apps\api\src\main.ts
+   1:1   error    Definition for rule '@typescript-eslint/explicit-function-return-types' was not found  @typescript-eslint/explicit-function-return-types
+   1:29  error    Replace `'@nestjs/core';␍` with `"@nestjs/core";`                                      prettier/prettier
+   2:27  error    Replace `'./app.module';␍` with `"./app.module";`                                      prettier/prettier
+   3:1   error    Delete `␍`                                                                             prettier/prettier
+   4:29  error    Delete `␍`                                                                             prettier/prettier
+   5:51  error    Delete `␍`                                                                             prettier/prettier
+   6:1   error    Delete `␍`                                                                             prettier/prettier
+   7:45  error    Delete `␍`                                                                             prettier/prettier
+   8:1   error    Delete `␍`                                                                             prettier/prettier
+   9:33  error    Delete `␍`                                                                             prettier/prettier
+  10:5   warning  Unexpected console statement                                                           no-console
+  10:63  error    Delete `␍`                                                                             prettier/prettier
+  11:5   warning  Unexpected console statement                                                           no-console
+  11:69  error    Delete `␍`                                                                             prettier/prettier
+  12:6   error    Delete `␍`                                                                             prettier/prettier
+  13:2   error    Delete `␍`                                                                             prettier/prettier
+  14:1   error    Delete `␍`                                                                             prettier/prettier
+  15:13  error    Delete `␍`                                                                             prettier/prettier
+
+✖ 51 problems (49 errors, 2 warnings)
+  45 errors and 0 warnings potentially fixable with the `--fix` option.
+
+ ELIFECYCLE  Command failed with exit code 1.

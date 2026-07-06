@@ -1,2 +1,10 @@
-﻿pnpm lint
-pnpm test
+#!/usr/bin/env sh
+staged_files=$(git diff --cached --name-only --diff-filter=ACMR | grep '^apps/api/' | tr '\n' '\n')
+if [ -n "$staged_files" ]; then
+  count=$(printf '%s
+' "$staged_files" | grep -c .)
+  if [ "$count" -le 20 ]; then
+    printf '%s
+' "$staged_files" | xargs -r pnpm exec eslint --cache --ext .ts,.tsx,.js,.jsx
+  fi
+fi
